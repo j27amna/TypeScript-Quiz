@@ -1,0 +1,102 @@
+[
+    {
+      "question": "Which of the following is NOT a benefit of using TypeScript?",
+      "answers": [
+        "Improved type safety",
+        "Increased runtime performance",
+        "Enhanced code readability",
+        "Compatibility with older JavaScript code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the purpose of an interface in TypeScript?",
+      "answers": [
+        "To define the structure of an object",
+        "To create a new primitive data type",
+        "To implement inheritance between classes",
+        "To handle asynchronous operations"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How can you declare a function that takes a number as input and returns a string as output in TypeScript?",
+      "answers": [
+        "function add(x: number) { return x.toString(); }",
+        "function add(x: number): string { return x.toString(); }",
+        "const add = (x: number) => x.toString();",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the difference between a public and a private member in a TypeScript class?",
+      "answers": [
+        "Public members are accessible from anywhere, while private members are only accessible within the class.",
+        "There is no difference; both are accessible from anywhere.",
+        "Private members are accessible from anywhere, while public members are only accessible within the class.",
+        "TypeScript does not support member visibility modifiers."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following is the correct syntax for generics in TypeScript?",
+      "answers": [
+        "function identity<T>(x: T): T { return x; }",
+        "function identity(x): any { return x; }",
+        "class MyClass<T> { ... }",
+        "Both a and c"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the primary use of decorators in TypeScript?",
+      "answers": [
+        "To add metadata to classes, properties, or methods",
+        "To define custom logic for type checking",
+        "To improve code performance",
+        "To create new keywords in the language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How can you iterate over the elements of an array in TypeScript?",
+      "answers": [
+        "for (let element of array) { ... }",
+        "for (let i = 0; i < array.length; i++) { ... }",
+        "Both a and b",
+        "There is no built-in way to iterate over arrays."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the difference between let and const in TypeScript?",
+      "answers": [
+        "let is used for variables that can be reassigned, while const is for constant values.",
+        "There is no difference; both can be reassigned.",
+        "const is used for variables that can be reassigned, while let is for constant values.",
+        "TypeScript does not have block-scoped declarations."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the purpose of the namespace keyword in TypeScript?",
+      "answers": [
+        "To group related types, functions, and classes together",
+        "To create modules in a project",
+        "To define type aliases for existing types",
+        "To control access to members in a class"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How can you write a unit test for a TypeScript function?",
+      "answers": [
+        "There are various testing frameworks like Jest or Mocha that can be used to write unit tests for TypeScript functions.",
+        "TypeScript itself does not provide built-in support for unit testing.",
+        "Unit testing is not recommended for TypeScript code.",
+        "You can use plain JavaScript for unit testing TypeScript code."
+      ],
+      "correctAnswer": 0
+    }
+  ]
